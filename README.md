@@ -1,2 +1,1 @@
-# SOF3011
-Java Servlet
+Project jsp servlet
