@@ -34,6 +34,6 @@ b.Một số các XML cơ bản
 -khi load trang trỏ trực tiếp tới một servlet khi load trang
 Sytax: < preflix redirect url ="/(Name hoặc value hoặc urlPartten của servlet)">
 *cách sinh ra View từ servlet
--để có thể đấy dữ liệu từ một serverlet controller ra vỉew ta sử dụng đối tượng ReqestDispather bằng cách getRequestDispather của thằng doGet
+-để có thể đấy dữ liệu từ một serverlet controller ra vỉew ta sử dụng đối tượng ReqestDispather bằng cách getRequestDispather("đường đẫn của thằng JSP")
 -Đối tượng RequestDispather có một phương thức là forward với tham số là một req và một res
 
