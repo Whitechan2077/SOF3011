@@ -32,3 +32,4 @@ b.Một số các XML cơ bản
 *các tablib 
 -khi load trang trỏ trực tiếp tới một servlet khi load trang
 Sytax: < preflix redirect url ="/(Name hoặc value hoặc urlPartten của servlet)">
+*cách sinh ra View từ servlet
