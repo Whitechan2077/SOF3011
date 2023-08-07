@@ -21,8 +21,8 @@ public class LyThuyet {
     HttpServletRequest : là đối tượng là đối tượng được
     -để có thể gọi các service method ở form chúng ta có attribute method ="Post" hoặc "get"
     -So sánh post get
-    +get thu thập dữ liệu của url rồi gửi tới server
-    +post tạo kênh riêng rồi gửi dũ liệu
+    +get thu thập dữ liệu của url rồi gửi tới server nhanh công khai
+    +post tạo kênh riêng rồi gửi dũ liệu chậm bí mật
 
     3.xửa lý các param
     quy tắc đặt tên các trường hợp đặc biệt
