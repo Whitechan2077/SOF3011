@@ -23,6 +23,14 @@ a.Cấu hình file pom.xml
           <artifactId>taglibs-standard-impl</artifactId>
           <version>1.2.5</version>
       </dependency>
+*mvn
+<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+
 -JSTL taglib <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 b.Một số các XML cơ bản
 <Wellcome-flie-list>
