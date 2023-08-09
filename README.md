@@ -1,4 +1,4 @@
-# SOF3011
+# SOF3011 https://mvnrepository.com/artifact/javax.servlet/jstl
 1.Project jsp servlet - Cấu hình các project cơ bản các thư viện cần thiết để chơi em java web
 Tạo project maven
 a.Cấu hình file pom.xml
