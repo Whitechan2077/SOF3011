@@ -30,17 +30,17 @@ a.Cấu hình file pom.xml
     <artifactId>jstl</artifactId>
     <version>1.2</version>
 </dependency>
-*jstl dmm
-      <dependency>
-          <groupId>org.glassfish.web</groupId>
-          <artifactId>jakarta.servlet.jsp.jstl</artifactId>
-          <version>3.0.1</version>
-      </dependency>
-      <dependency>
-          <groupId>jakarta.servlet.jsp.jstl</groupId>
-          <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
-          <version>2.0.0</version>
-      </dependency>
+*jstl 3.0 jarkata cần 2 cái 1 là jstl api 2 là jstl
+       <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
+        </dependency>
 -JSTL taglib <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 b.Một số các XML cơ bản
 <Wellcome-flie-list>
