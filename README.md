@@ -42,6 +42,12 @@ a.Cấu hình file pom.xml
             <version>3.0.1</version>
         </dependency>
 -JSTL taglib <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+*JDBC driver
+            <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.4.0.jre11</version>
+        </dependency>
 b.Một số các XML cơ bản
 <Wellcome-flie-list>
   <Wellcome-file></Wellcome-file>
