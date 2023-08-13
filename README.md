@@ -48,6 +48,9 @@ a.Cấu hình file pom.xml
             <artifactId>mssql-jdbc</artifactId>
             <version>12.4.0.jre11</version>
         </dependency>
+-Với nên tomcat thì driver sql server sẽ không thể nạp tự động bắt buộc phải đăng khí driver
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+(Chỉ tự động trên môi trường java nhé các bé yêu =)))))
 b.Một số các XML cơ bản
 <Wellcome-flie-list>
   <Wellcome-file></Wellcome-file>
