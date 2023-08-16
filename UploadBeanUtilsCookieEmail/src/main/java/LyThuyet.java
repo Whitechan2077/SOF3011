@@ -50,6 +50,13 @@ public class LyThuyet {
      - Cookie = new Cookie ("name, value,path cần lưu")
      - .setPath("/") đặt đường đẫn cho cookie và cookie đó sẽ có hiệu lực toàn site
      resp.addCookie(Cookie) gửi 1 cookie về server
-
+    4.Sessions
+     -Trong khi đang làm việc với web sessions dùng để lưu trữ dữ liệu trong một phiên mà người đùng đăng nhập
+     -Khi bắt đầu một khởi chạy web thì sessions sẽ tạo tự động và việc của người dùng là set các giá trị cần lưu vào trong sessions
+     -Để có thể lấy một session chúng ta cần có đối tượng HttpsSession session = req.getSession();
+     -để thực hiên lưu trữ một giá trị vào session ta sử dụng phương thức .setAttribute("khóa","Giá trị cần lưu")
+     -để thực hiện lấy một giá trị trong session thì ta có phương thức .getAttribute("Tên khóa");
+     -để xóa một dữ liệu ra khỏi sessios
+     
      */
 }

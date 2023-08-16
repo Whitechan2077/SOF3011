@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>UploadBeanUtilsCookieEmail</artifactId>
+    <artifactId>lab3</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>UploadBeanUtilsCookieEmail</name>
+    <name>lab3</name>
     <packaging>war</packaging>
 
     <properties>
@@ -35,6 +35,11 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
         </dependency>
     </dependencies>
 

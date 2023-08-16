@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>UploadBeanUtilsCookieEmail</artifactId>
+    <artifactId>JSP_JSTL_EL</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>UploadBeanUtilsCookieEmail</name>
+    <name>JSP_JSTL_EL</name>
     <packaging>war</packaging>
 
     <properties>
@@ -36,6 +36,17 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
