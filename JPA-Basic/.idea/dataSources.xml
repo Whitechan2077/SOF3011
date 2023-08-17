@@ -8,5 +8,16 @@
       <jdbc-url>jdbc:sqlserver://localhost:1433;database=FLP;encrypt=true;trustServerCertificate=true</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="FPL/Hibernate" uuid="7309f1a3-a338-4ed1-8021-7d89d4c3d2ad">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/FPTPOLYTECHNIC/Semester4/Java 4/SOF3011/JPA-Basic/src/main/resources/META-INF/persistence.xml</remarks>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;database=FLP;encrypt=true;trustServerCertificate=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
