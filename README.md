@@ -65,3 +65,4 @@ Sytax: < preflix redirect url ="/(Name hoặc value hoặc urlPartten của serv
 -Đối tượng RequestDispather có một phương thức là forward với tham số là một req và một resp
 -Để đẩy dữ liệu từ servlet sang jsp thì ta có phương thức setAttribute cho resp sytax: .setAttribute("(tên biến dùng trong jsp),Object truyền vào");
 -sang file jps ta dùng thư viện jstl để có thể dùng được express language $ {(tên biến vừa đặt trong setAttribute)}
+https://learn.microsoft.com/en-us/sql/connect/jdbc/connecting-with-ssl-encryption?view=sql-server-ver16
